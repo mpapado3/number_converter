@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB05B2D01CF18CE3008C7281 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB05B2CF1CF18CE3008C7281 /* AppDelegate.swift */; };
+		AB05B2D21CF18CE3008C7281 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB05B2D11CF18CE3008C7281 /* ViewController.swift */; };
+		AB05B2D41CF18CE3008C7281 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB05B2D31CF18CE3008C7281 /* Assets.xcassets */; };
+		AB05B2D71CF18CE3008C7281 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB05B2D51CF18CE3008C7281 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AB05B2CC1CF18CE3008C7281 /* Number Converter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Number Converter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB05B2CF1CF18CE3008C7281 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AB05B2D11CF18CE3008C7281 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AB05B2D31CF18CE3008C7281 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB05B2D61CF18CE3008C7281 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB05B2D81CF18CE3008C7281 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB05B2C91CF18CE3008C7281 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB05B2C31CF18CE3008C7281 = {
+			isa = PBXGroup;
+			children = (
+				AB05B2CE1CF18CE3008C7281 /* Number Converter */,
+				AB05B2CD1CF18CE3008C7281 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB05B2CD1CF18CE3008C7281 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB05B2CC1CF18CE3008C7281 /* Number Converter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB05B2CE1CF18CE3008C7281 /* Number Converter */ = {
+			isa = PBXGroup;
+			children = (
+				AB05B2CF1CF18CE3008C7281 /* AppDelegate.swift */,
+				AB05B2D11CF18CE3008C7281 /* ViewController.swift */,
+				AB05B2D31CF18CE3008C7281 /* Assets.xcassets */,
+				AB05B2D51CF18CE3008C7281 /* Main.storyboard */,
+				AB05B2D81CF18CE3008C7281 /* Info.plist */,
+			);
+			path = "Number Converter";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB05B2CB1CF18CE3008C7281 /* Number Converter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB05B2DB1CF18CE3008C7281 /* Build configuration list for PBXNativeTarget "Number Converter" */;
+			buildPhases = (
+				AB05B2C81CF18CE3008C7281 /* Sources */,
+				AB05B2C91CF18CE3008C7281 /* Frameworks */,
+				AB05B2CA1CF18CE3008C7281 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Number Converter";
+			productName = "Number Converter";
+			productReference = AB05B2CC1CF18CE3008C7281 /* Number Converter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB05B2C41CF18CE3008C7281 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Razzmatazz;
+				TargetAttributes = {
+					AB05B2CB1CF18CE3008C7281 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = AB05B2C71CF18CE3008C7281 /* Build configuration list for PBXProject "Number Converter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB05B2C31CF18CE3008C7281;
+			productRefGroup = AB05B2CD1CF18CE3008C7281 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB05B2CB1CF18CE3008C7281 /* Number Converter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB05B2CA1CF18CE3008C7281 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB05B2D41CF18CE3008C7281 /* Assets.xcassets in Resources */,
+				AB05B2D71CF18CE3008C7281 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB05B2C81CF18CE3008C7281 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB05B2D21CF18CE3008C7281 /* ViewController.swift in Sources */,
+				AB05B2D01CF18CE3008C7281 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AB05B2D51CF18CE3008C7281 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB05B2D61CF18CE3008C7281 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB05B2D91CF18CE3008C7281 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB05B2DA1CF18CE3008C7281 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AB05B2DC1CF18CE3008C7281 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Number Converter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gr.razzmatazz.Number-Converter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AB05B2DD1CF18CE3008C7281 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Number Converter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gr.razzmatazz.Number-Converter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB05B2C71CF18CE3008C7281 /* Build configuration list for PBXProject "Number Converter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB05B2D91CF18CE3008C7281 /* Debug */,
+				AB05B2DA1CF18CE3008C7281 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB05B2DB1CF18CE3008C7281 /* Build configuration list for PBXNativeTarget "Number Converter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB05B2DC1CF18CE3008C7281 /* Debug */,
+				AB05B2DD1CF18CE3008C7281 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB05B2C41CF18CE3008C7281 /* Project object */;
+}
