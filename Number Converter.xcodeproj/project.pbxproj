@@ -11,6 +11,13 @@
 		AB05B2D21CF18CE3008C7281 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB05B2D11CF18CE3008C7281 /* ViewController.swift */; };
 		AB05B2D41CF18CE3008C7281 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB05B2D31CF18CE3008C7281 /* Assets.xcassets */; };
 		AB05B2D71CF18CE3008C7281 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB05B2D51CF18CE3008C7281 /* Main.storyboard */; };
+		AB36DE141D0C93E300D027FD /* icon_512x512@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB36DE131D0C93E300D027FD /* icon_512x512@2x.png */; };
+		AB36DE161D0C93E800D027FD /* icon_512x512.png in Resources */ = {isa = PBXBuildFile; fileRef = AB36DE151D0C93E800D027FD /* icon_512x512.png */; };
+		AB8615ED1D00D90800030B85 /* DecimalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8615EB1D00D90800030B85 /* DecimalView.swift */; };
+		AB8615EE1D00D90800030B85 /* DecimalView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB8615EC1D00D90800030B85 /* DecimalView.xib */; };
+		ABB9D07D1D02AD3000BD2F9C /* BinaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB9D07B1D02AD3000BD2F9C /* BinaryView.swift */; };
+		ABB9D07E1D02AD3000BD2F9C /* BinaryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABB9D07C1D02AD3000BD2F9C /* BinaryView.xib */; };
+		ABE3F79A1D0755AF00B9D18E /* HexaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE3F7991D0755AF00B9D18E /* HexaView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +27,13 @@
 		AB05B2D31CF18CE3008C7281 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB05B2D61CF18CE3008C7281 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AB05B2D81CF18CE3008C7281 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB36DE131D0C93E300D027FD /* icon_512x512@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_512x512@2x.png"; sourceTree = "<group>"; };
+		AB36DE151D0C93E800D027FD /* icon_512x512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_512x512.png; sourceTree = "<group>"; };
+		AB8615EB1D00D90800030B85 /* DecimalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecimalView.swift; sourceTree = "<group>"; };
+		AB8615EC1D00D90800030B85 /* DecimalView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DecimalView.xib; sourceTree = "<group>"; };
+		ABB9D07B1D02AD3000BD2F9C /* BinaryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinaryView.swift; sourceTree = "<group>"; };
+		ABB9D07C1D02AD3000BD2F9C /* BinaryView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BinaryView.xib; sourceTree = "<group>"; };
+		ABE3F7991D0755AF00B9D18E /* HexaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HexaView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,11 +66,18 @@
 		AB05B2CE1CF18CE3008C7281 /* Number Converter */ = {
 			isa = PBXGroup;
 			children = (
+				AB36DE131D0C93E300D027FD /* icon_512x512@2x.png */,
+				AB36DE151D0C93E800D027FD /* icon_512x512.png */,
 				AB05B2CF1CF18CE3008C7281 /* AppDelegate.swift */,
 				AB05B2D11CF18CE3008C7281 /* ViewController.swift */,
 				AB05B2D31CF18CE3008C7281 /* Assets.xcassets */,
 				AB05B2D51CF18CE3008C7281 /* Main.storyboard */,
 				AB05B2D81CF18CE3008C7281 /* Info.plist */,
+				AB8615EB1D00D90800030B85 /* DecimalView.swift */,
+				AB8615EC1D00D90800030B85 /* DecimalView.xib */,
+				ABB9D07B1D02AD3000BD2F9C /* BinaryView.swift */,
+				ABB9D07C1D02AD3000BD2F9C /* BinaryView.xib */,
+				ABE3F7991D0755AF00B9D18E /* HexaView.swift */,
 			);
 			path = "Number Converter";
 			sourceTree = "<group>";
@@ -119,8 +140,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB36DE141D0C93E300D027FD /* icon_512x512@2x.png in Resources */,
 				AB05B2D41CF18CE3008C7281 /* Assets.xcassets in Resources */,
+				AB8615EE1D00D90800030B85 /* DecimalView.xib in Resources */,
 				AB05B2D71CF18CE3008C7281 /* Main.storyboard in Resources */,
+				ABB9D07E1D02AD3000BD2F9C /* BinaryView.xib in Resources */,
+				AB36DE161D0C93E800D027FD /* icon_512x512.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,6 +158,9 @@
 			files = (
 				AB05B2D21CF18CE3008C7281 /* ViewController.swift in Sources */,
 				AB05B2D01CF18CE3008C7281 /* AppDelegate.swift in Sources */,
+				AB8615ED1D00D90800030B85 /* DecimalView.swift in Sources */,
+				ABE3F79A1D0755AF00B9D18E /* HexaView.swift in Sources */,
+				ABB9D07D1D02AD3000BD2F9C /* BinaryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +303,7 @@
 				AB05B2DD1CF18CE3008C7281 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
